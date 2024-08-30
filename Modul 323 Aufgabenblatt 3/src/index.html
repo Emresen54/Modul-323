@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital4You</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex flex-col min-h-screen items-center bg-gray-50">
+    <header class="bg-white border-b border-gray-300 p-4 w-full">
+        <div class="max-w-4xl mx-auto flex items-center">
+            <img src="./Download.jpg" alt="Logo" class="w-10 h-10 mr-2">
+            <h1 class="text-xl font-normal text-black">Digital4You</h1>
+        </div>
+    </header>
+
+    <div class="flex flex-col items-center w-full flex-grow">
+        <div class="flex flex-col lg:flex-row items-start max-w-4xl w-full mt-5">
+            <aside class="w-full lg:w-1/4 p-4 text-center lg:text-left">
+                <h2 class="text-lg mb-4">SIDEBAR</h2>
+                <nav>
+                    <ul>
+                        <li class="mb-2"><a href="#home" class="text-blue-500">Home</a></li>
+                        <li class="mb-2"><a href="#about" class="text-blue-500">About Us</a></li>
+                        <li class="mb-2"><a href="#products" class="text-blue-500">Products</a></li>
+                    </ul>
+                </nav>
+            </aside>
+
+            <main class="w-full lg:w-3/4 p-4 lg:ml-10">
+                <div class="w-full lg:w-5/6 ml-auto">
+                    <section class="mb-8">
+                        <h2 class="text-lg mb-4">TABLE</h2>
+                        <table class="w-full text-left border-collapse">
+                            <thead>
+                                <tr>
+                                    <th class="p-2 bg-gray-100 font-bold">Firstname</th>
+                                    <th class="p-2 bg-gray-100 font-bold">Lastname</th>
+                                    <th class="p-2 bg-gray-100 font-bold">Age</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="p-2">Nezir Emre</td>
+                                    <td class="p-2">Sen</td>
+                                    <td class="p-2">17</td>
+                                </tr>
+                                <tr>
+                                    <td class="p-2">Luis</td>
+                                    <td class="p-2">Fernandez</td>
+                                    <td class="p-2">18</td>
+                                </tr>
+                                <tr>
+                                    <td class="p-2">Max</td>
+                                    <td class="p-2">Mustermann</td>
+                                    <td class="p-2">48</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+
+                    <section>
+                        <h2 class="text-lg mb-4">SECTION</h2>
+                        <article class="mb-4">
+                            <h3 class="font-bold">ARTICLE - Nezir Emre Sen</h3>
+                            <p>Nezir Emre Sen ist 17 Jahre alt.</p>
+                        </article>
+                        <article class="mb-4">
+                            <h3 class="font-bold">ARTICLE - Luis Fernandez</h3>
+                            <p>Luis Fernandez ist 18 Jahre alt.</p>
+                        </article>
+                        <article class="mb-4">
+                            <h3 class="font-bold">ARTICLE - Max Mustermann</h3>
+                            <p>Max Mustermann ist 48 Jahre alt.</p>
+                        </article>
+                    </section>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <footer class="bg-white border-t border-gray-300 text-center p-4 w-full">
+        <div class="max-w-4xl mx-auto">
+            <p>Copyright © - Digital4You GmbH</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 10px 0;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    padding-left: 25%; 
+}
+
+header img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+header h1 {
+    font-size: 20px;
+    font-weight: normal;
+    color: #000000;
+    margin: 0;
+    display: inline-block; 
+    vertical-align: middle; 
+}
+
+.container {
+    display: flex;
+    justify-content: center; 
+    margin: 20px auto;
+    width: 70%;
+    flex-grow: 1;
+}
+
+aside {
+    width: 25%; 
+    padding: 0 20px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    font-size: 14px;
+    margin-right: 20px; 
+    border-right: none; 
+}
+
+aside h2 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #000000;
+    font-weight: normal;
+}
+
+aside nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+aside nav ul li {
+    margin-bottom: 10px;
+}
+
+aside nav ul li a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 14px;
+}
+
+main {
+    width: 50%; 
+    padding: 0 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    text-align: center; 
+}
+
+main section {
+    margin-bottom: 20px;
+}
+
+main section h2 {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #000000;
+    font-weight: normal;
+    text-align: left; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-size: 14px;
+    border: none; 
+    text-align: left; 
+}
+
+table, th, td {
+    border: none; 
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+article {
+    margin-bottom: 15px;
+    text-align: left; 
+}
+
+article h3 {
+    margin: 0 0 5px 0;
+    font-size: 14px;
+    color: #000000;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-top: 1px solid #ddd;
+    font-size: 14px;
+    color: #000000;
+    margin-top: auto;
+    width: 100%;
+}
